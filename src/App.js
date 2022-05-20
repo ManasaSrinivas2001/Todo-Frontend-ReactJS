@@ -20,6 +20,7 @@ function App() {
       .then((response) => {
         const newList = [...response.todo_list];
         setIsLoading(false);
+
         setTodoList(newList);
       });
   }
